@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "showlistitems-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/showlistitems/ShowlistitemsWebPart.js",
+          "manifest": "./src/webparts/showlistitems/ShowlistitemsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ShowlistitemsWebPartStrings": "lib/webparts/showlistitems/loc/{locale}.js"
+  }
+}
